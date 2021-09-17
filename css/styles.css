@@ -1,9 +1,37 @@
 #title{
     background-color: #ff4c68;
+
 }
 #features{
     text-align: center;
-    padding: 2rem 0 2rem 0;
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#pricing{
+    padding:100px ;
+    text-align: center;
+}
+#cta{
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding: 7% 15%;
+}
+#footer{
+    padding: 1rem;
+    text-align: center;
+    padding: 7% 15%;
+
 }
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
@@ -18,15 +46,23 @@
 .nav-link{
     font-size: 1.35rem;
 }
-.btn{
+.subject{
+    font-size: 4rem;
+    line-height: 1.5;
+    color: #ffff;
+}
+.btn1{
     margin: 5% 3% 5% 0;
 }
 .image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 10% 10%;
 }
 .fa-9x{
     color: #ef8172;
@@ -35,21 +71,60 @@
 .fa-9x:hover{
     color:#ff4c68 ;
 }
-h1{
-    font-size: 4rem;
-    line-height: 1.5;
-    margin-top: 2rem;
-    color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
+.timage{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.pressl{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+.carousel-item{
+    padding: 7% 10%;
+}
+.pricc{
+    padding: 3% 2%;
+}
+.col{
+    position: relative;
+}
+.slogan{
+    color: #ffff;
+    font-size: 3.5rem;
+    padding: 3rem;
+}
+.btn2{
+    margin:1rem;
+}
+.fa-2x{
+    margin: 20px 10px;
 
 }
-h3{
-    font-size: 1.5rem;
+@media (max-width:1028px) {
+    .image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
 }
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.5rem;}
 p{
     color: #b1b1b1;
     font-size: 1.2rem;
+    padding: 0 10%;
 }
 body{
     font-family: 'Montserrat-light', sans-serif;
